@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .widget-container .widget-logo {
+    @apply p-10;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('./../assets/spark-logo-white.svg');
+  }
+  .widget-container .bg-custom-beige .widget-logo,
+  .widget-container .bg-custom-white .widget-logo {
+    background-image: url('./../assets/spark-logo-green.svg');
+  }
+
+  .widget-container .bg-custom-beige,
+  .widget-container .bg-custom-white {
+    size: 10px;
+    /* @apply text-green-950 */
+    @apply text-custom-green;
+  }
+}
