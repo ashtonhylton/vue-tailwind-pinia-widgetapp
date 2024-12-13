@@ -28,7 +28,7 @@ const widgetModel = defineModel({
 
 ## Project Setup
 
-This app was build using [pmpm]{https://pnpm.io/)
+This app was build using [pmpm](https://pnpm.io/)
 
 ```sh
 pnpm install
